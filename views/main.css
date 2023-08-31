@@ -1,3 +1,5 @@
+html, body {margin: 0; height: 100%; overflow: hidden}
+
 body {
     width: 100%;
     height: 100vh;
@@ -67,3 +69,46 @@ input[type="submit"] {
       background-color: #203647;
       width: 50vw;
   }
+
+
+
+  nav {
+    background-color: #203647;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #203647;
+  }
+  
+nav li {
+    float: left;
+  }
+  
+ nav li a {
+    display: block;
+    color: #EEFBFB;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+ nav li a:hover {
+    background-color: #12232E;
+  }
+
+  .main-container{
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    width:100%;
+    background-color: #007cc7;
+    color: #EEFBFB;
+    justify-content: center;
+    align-items: center;
+
+}
+
